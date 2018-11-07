@@ -53,7 +53,7 @@ def read_annotation(base_dir, label_path):
         bboxes.append(one_image_bboxes)
 
 
-    data['images'] = images#all images
+    data['images'] = images#all image pathes
     data['bboxes'] = bboxes#all image bboxes
     # f.close()
     return data
